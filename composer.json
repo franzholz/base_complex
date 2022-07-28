@@ -1,0 +1,47 @@
+{
+  "name": "jambagecom/base-complex",
+  "type": "typo3-cms-extension",
+  "description": "PHP Class for handling Complex numbers.",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "complex",
+    "number"
+  ],
+  "support": {
+    "issues": "https://github.com/franzholz/base_complex/issues"
+  },
+  "homepage": "https://jambage.com",
+  "authors": [
+    {
+        "name": "Mark Baker",
+        "email": "mark@lange.demon.co.uk"
+    },
+    {
+      "name": "Franz Holzinger",
+      "role": "Developer",
+      "homepage": "https://ttproducts.de"
+    }
+  ],
+  "license": [
+    "GPL-2.0-or-later"
+  ],
+  "require": {
+    "php": "^7.2 || ^8.0",
+    "typo3/cms-core": "^9.5 || ^10.4 || ^11.5"
+  },
+  "repositories": [
+    {
+        "type": "path",
+        "url": "Vendor/PHPComplex"
+    }
+  ],
+  "replace": {
+    "typo3-ter/base-complex": "self.version"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "base_complex"
+    }
+  }
+}
