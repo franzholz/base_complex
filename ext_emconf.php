@@ -8,7 +8,7 @@ $EM_CONF[$_EXTKEY] = [
     'title' => 'Complex Numbers Library',
     'description' => 'A library to deal with complex numbers. (PHPComplex)',
     'category' => 'misc',
-    'version' => '0.0.2',
+    'version' => '3.0.2',
     'state' => 'stable',
     'clearcacheonload' => 1,
     'author' => 'Mark Baker, Franz Holzinger',
@@ -16,8 +16,7 @@ $EM_CONF[$_EXTKEY] = [
     'author_company' => 'jambage.com',
     'constraints' => [
         'depends' => [
-            'php' => '7.4.0-8.1.99',
-            'typo3' => '9.5.0-11.5.99'
+            'typo3' => '10.4.0-12.4.99'
         ],
         'conflicts' => [
         ],
