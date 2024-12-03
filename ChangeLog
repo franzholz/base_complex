@@ -1,8 +1,11 @@
+2024-12-03 Franz Holzinger <franz@ttproducts.de>
+    * Support for TYPO3 13
+
 2023-05-06 Franz Holzinger <franz@ttproducts.de>
     * Support for TYPO3 12
 
 2022-07-28 Franz Holzinger <franz@ttproducts.de>
-    * initial creation based on 
+    * initial creation based on
 PHPComplex v3.0.1: See the file Vendor/version.txt and https://github.com/MarkBaker/PHPComplex/tags
 .
 
